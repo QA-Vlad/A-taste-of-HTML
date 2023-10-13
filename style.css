@@ -1,0 +1,37 @@
+body {
+  width: 70%;
+  margin: 0 auto;
+  background: rgba(155, 180, 252, 0.34);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+td,
+th,
+table,
+caption {
+  border: 1px solid black;
+}
+img + figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+figure {
+  display: block;
+  margin: 0 auto;
+  float: right;
+}
